@@ -1,7 +1,7 @@
 import { refreshSessionCookie } from "$lib/server/auth";
 import { collections } from "$lib/server/database";
 import { ObjectId } from "mongodb";
-import { DEFAULT_SETTINGS } from "$lib/types/Settings";
+import { DEFAULT_SETTINGS } from "$lib/constants/settings";
 import { z } from "zod";
 import type { UserinfoResponse } from "openid-client";
 import { error, type Cookies } from "@sveltejs/kit";
