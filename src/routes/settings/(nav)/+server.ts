@@ -1,7 +1,8 @@
 import { collections } from "$lib/server/database";
 import { z } from "zod";
 import { authCondition } from "$lib/server/auth";
-import { DEFAULT_SETTINGS, type SettingsEditable } from "$lib/types/Settings";
+import { DEFAULT_SETTINGS } from "$lib/constants/settings";
+import type { SettingsEditable } from "$lib/types/Settings";
 import { toolFromConfigs } from "$lib/server/tools/index.js";
 import { ObjectId } from "mongodb";
 
